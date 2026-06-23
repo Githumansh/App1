@@ -1,7 +1,11 @@
 import streamlit as st
-import pandas as st
+import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+
+# This must be the absolute first Streamlit command executed
+st.set_page_config(page_title="Data Forecasting Analyzer", layout="centered")
+
 
 # Set up the app title and layout
 st.set_page_config(page_title="Data Forecasting Analyzer", layout="centered")
